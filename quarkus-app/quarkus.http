@@ -1,0 +1,20 @@
+### hello
+GET localhost:8080/quarkus
+
+### cpu 10
+GET localhost:8080/quarkus/cpu?iterations=10&db=true&desc=java17
+
+### memory 10
+GET localhost:8080/quarkus/memory?bites=10&db=true&desc=java17
+
+### cpu 100
+GET localhost:8080/quarkus/cpu?iterations=100&db=true
+
+### memory 100
+GET localhost:8080/quarkus/memory?bites=100&db=true
+
+### show stats
+GET localhost:8080/quarkus/stats
+
+###
+

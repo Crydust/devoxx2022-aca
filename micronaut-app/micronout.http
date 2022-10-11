@@ -1,0 +1,15 @@
+###
+GET localhost:8702/micronaut
+###
+GET localhost:8702/micronaut/cpu?iterations=10&db=true&desc=java17
+###
+GET localhost:8702/micronaut/memory?bites=10&db=true&desc=java17
+###
+GET localhost:8702/micronaut/cpu?iterations=100&db=true
+###
+GET localhost:8702/micronaut/memory?bites=100&db=true
+###
+GET localhost:8702/micronaut/stats
+###
+
+
