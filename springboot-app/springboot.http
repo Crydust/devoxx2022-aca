@@ -1,0 +1,20 @@
+### hello
+GET localhost:8703/springboot
+
+### cpu 10
+GET localhost:8703/springboot/cpu?iterations=10&db=true&desc=java17
+
+### memory 10
+GET localhost:8703/springboot/memory?bites=10&db=true&desc=java17
+
+### cpu 100
+GET localhost:8703/springboot/cpu?iterations=100&db=true
+
+### memory 100
+GET localhost:8703/springboot/memory?bites=100&db=true
+
+### show stats
+GET localhost:8703/springboot/stats
+
+###
+
